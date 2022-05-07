@@ -42,7 +42,7 @@ def get_dirs(path):
 
 
 def main():
-    if os.getcwd() != "Abgaben":  # check that the user is in the correct directory
+    if "Abgaben" not in os.getcwd():  # check that the user is in the correct directory
         raise Exception("You are in the wrong Directory, make sure you are in '.../Uebungsblatt X/Abgaben'")
 
     print("1 - rename all files")
