@@ -3,7 +3,7 @@ Script to rename, extract and move back files of the Ilias tutorium submissions.
 
 # Usage
 
-Execute main.py in '.../Uebungsblatt X/Abgaben'.
+Execute main.py in `'.../Uebungsblatt X/Abgaben'`.
 You will be asked to enter one of the following options:
 
     1 - rename all files
